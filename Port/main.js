@@ -31,3 +31,12 @@ const blurHeder = () =>{
 }
 
 window.addEventListener('scroll', blurHeder)
+
+const contactForm = document.getElementById('contact-form'),
+      contactMessaage = document.getElementById('contact-message')
+
+const sendEmail = (e) =>{
+    e.preventDefaylt()
+}
+
+contactForm.addEventListener('submit', sendEmail)
