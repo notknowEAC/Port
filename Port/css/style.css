@@ -421,6 +421,9 @@ img {
   margin-bottom: .75rem;
 }
 
+.png__size{
+  width: 100px;
+}
 /* SKills*/
 
 .skills__img{
@@ -471,6 +474,9 @@ img {
   margin-bottom: .75rem;
 }
 
+.services__description{
+  font-size: var(--h2-font-size);
+}
 /*contact*/
 
 .contact__container{
